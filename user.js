@@ -15,10 +15,12 @@ user_pref("media.navigator.enabled", false);
 user_pref("browser.startup.homepage_override.mstone", "ignore");
 user_pref("app.normandy.enabled", false);
 user_pref("webgl.disabled", true);
+user_pref("browser.bookmarks.restore_default_bookmarks", false);
+user_pref("trailhead.firstrun.didSeeAboutWelcome", true);
 
-// disable WebRTC leack, uncomment media.peerconnection.enabled if want to disable WebRTC at all
-// user_pref("media.peerconnection.enabled", false);
-user_pref("media.peerconnection.ice.default_address_only", true);
+// disable WebRTC leack, uncomment media.peerconnection.enabled if want to turn of WebRTC at all
+user_pref("media.peerconnection.enabled", false);
+//user_pref("media.peerconnection.ice.default_address_only", true);
 
 // network settings
 user_pref("network.captive-portal-service.enabled", false);
@@ -27,6 +29,7 @@ user_pref("network.http.sendRefererHeader", 0);
 user_pref("network.http.speculative-parallel-limit", 0);
 user_pref("network.predictor.enabled", false);
 user_pref("network.prefetch-next", false);
+user_pref("network.cookie.cookieBehavior", 1);
 
 // browser permissions
 user_pref("permissions.default.camera", 2);
@@ -45,3 +48,12 @@ user_pref("services.sync.prefs.sync.media.eme.enabled", false);
 user_pref("privacy.trackingprotection.enabled", true);
 user_pref("privacy.trackingprotection.socialtracking.enabled", true);
 user_pref("privacy.resistFingerprinting", true);
+
+// telemetry
+user_pref("toolkit.telemetry.pioneer-new-studies-available", false);
+user_pref("toolkit.telemetry.reportingpolicy.firstRun", false);
+user_pref("toolkit.telemetry.unified", false);
+user_pref("datareporting.healthreport.uploadEnabled", false);
+
+// always private browsing
+user_pref("browser.privatebrowsing.autostart", true);
