@@ -57,3 +57,4 @@ user_pref("datareporting.healthreport.uploadEnabled", false);
 
 // always private browsing
 user_pref("browser.privatebrowsing.autostart", true);
+
