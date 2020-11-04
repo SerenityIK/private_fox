@@ -33,7 +33,7 @@ user_pref("network.dns.disablePrefetch", false);
 user_pref("network.http.sendRefererHeader", 0);
 user_pref("network.http.speculative-parallel-limit", 6);
 user_pref("network.predictor.enabled", false);
-user_pref("network.prefetch-next", true;
+user_pref("network.prefetch-next", true);
 user_pref("network.cookie.cookieBehavior", 4);
 
 // browser permissions
