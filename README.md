@@ -16,7 +16,7 @@ Google Safebrowsing and tracking protection (using safebrowsing api) are turned 
 
 ## Installition instruction
 
-Just choose one of 3 user.js files and copy it to your profile directory.
+Just choose one of 3 user.js files and copy it to your browser profile directory.
 ***
 on GNU/Linux:
 ```
@@ -27,4 +27,6 @@ on Windows:
 \Users\<user>\AppData\Local\Mozilla\Firefox\Profile\<your_profile_directory>
 ```
 ***
-Restart browser and check about:config for changes have been made. Feel free to report any bugs or make pull request.
+Restart browser and check about:config for changes have been made.
+
+Feel free to report any bugs or make pull request.
